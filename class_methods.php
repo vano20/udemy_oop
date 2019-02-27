@@ -8,6 +8,10 @@ class Mobil {
 	function gretting(){
 
 	}
+
+	function gretting2(){
+
+	}
 }
 
 $the_methods = get_class_methods('Mobil');
