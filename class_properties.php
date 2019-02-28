@@ -9,7 +9,7 @@ class Mobil {
 	
 	//methods
 	function detil_mobil(){
-		echo "hello world!";
+		echo "Mobil ini mempunyai " . $this->wheel_count . " roda";
 	}
 }
 
@@ -18,4 +18,5 @@ $bajaj = new Mobil();
 
 echo $odong->wheel_count = 10 . "<br>"; //calling property or setting instance
 echo $bajaj->wheel_count . "<br>";
+echo $bajaj->detil_mobil();
 ?>
